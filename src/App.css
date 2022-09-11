@@ -1,0 +1,62 @@
+.card{
+
+  
+  cursor:pointer
+}
+
+.footer{
+  height: 25vh
+}
+
+.footer-text{
+  color:rgb(114, 110, 110);
+   
+}
+.facebook:hover{
+  height: 1.7rem;
+  width:1.7rem
+}
+.youtube:hover{
+  height: 1.7rem;
+  width:1.7rem
+}
+.twitter:hover{
+  height: 1.7rem;
+  width:1.7rem
+}
+.instagram:hover{
+  height: 1.7rem;
+  width:1.7rem
+}
+
+ul a:hover{
+    
+  
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 988px){
+  .navbar-brand{
+    margin:auto
+  }
+  .navbar-img{
+    display: none;
+  }
+  
+  .switch{
+    
+   /* position:sticky;
+   bottom:0 */
+   position:relative;
+   bottom:280px;
+   float:left
+   
+    
+  }
+
+  .nav-item{
+    margin:auto
+  }
+  
+
+}
